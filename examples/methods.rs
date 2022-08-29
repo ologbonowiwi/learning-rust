@@ -8,5 +8,11 @@ fn main() {
     let a = 50;
     let b = 5943;
 
-    println!("Sum of {} and {} = {}", a, b, sum(a, b));
+    println!("{} + {} = {}", a, b, sum(a, b));
+    println!("{} * {} = {}", a, b, times(a, b));
+}
+
+// Methods can be declared after where they are called
+fn times(a: i32, b: i32) -> i32 {
+    a * b
 }
