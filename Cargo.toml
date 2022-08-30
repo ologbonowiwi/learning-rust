@@ -1,0 +1,4 @@
+[package]
+name = "learning-rust"
+version = "0.0.1"
+authors = ["Wesley Matos <wm4tos.777@gmail.com>"]
